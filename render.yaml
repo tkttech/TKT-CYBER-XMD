@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tkt-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/tkttech/tkt-pair-site
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
