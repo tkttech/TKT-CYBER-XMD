@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By Tafadzwa TKT",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DML-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name TKT-CYBER-XMD",
     "stop": "pm2 stop index",
     "restart": "pm2 restart index"
   },
