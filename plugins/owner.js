@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/ug8w1x.jpg' }, // Image URL from your request
+            image: { url: 'https://files.catbox.moe/1cp4yq.jpeg' }, // Image URL from your request
             caption: `╭━━〔 *TKT-CYBER-XMD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
@@ -53,7 +53,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/d1v8se.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/cpb15b.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
