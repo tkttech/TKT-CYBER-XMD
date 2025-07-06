@@ -24,12 +24,12 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
     try {
         let totalCommands = Object.keys(commands).length;
         const caption = `*╭────⬡ ${config.BOT_NAME} ⬡────*
-★├▢ 🇿🇼 *o҉w҉n҉e҉r҉:* ${config.OWNER_NAME}
-★├▢ 🪀 *p҉r҉e҉f҉i҉x҉:* ${config.PREFIX}
+★├▢ 🇿🇼 *𝕠𝕨𝕟𝕖𝕣:* ${config.OWNER_NAME}
+★├▢ 🪀 *𝕡𝕣𝕖𝕗𝕚𝕩:* ${config.PREFIX}
 ★├▢ 🔰 *𝕧𝕖𝕣𝕤𝕚𝕠𝕟:* 5.0.0 antiban
-★├▢ ♻️ *p҉l҉a҉t҉f҉o҉r҉m҉:* Linux 
+★├▢ ♻️ *𝕡𝕝𝕒𝕥𝕗𝕠𝕣𝕞:* Linux 
 ★├▢ 📵 *𝕥𝕠𝕥𝕒𝕝 𝕔𝕠𝕞𝕞𝕒𝕟𝕕𝕤:* ${totalCommands}
-★├▢ 🚳 *r҉u҉n҉t҉i҉m҉e҉:* ${runtime(process.uptime())}
+★├▢ 🚳 *𝕣𝕦𝕟𝕥𝕚𝕞𝕖:* ${runtime(process.uptime())}
 ★╰────────────────*
 
 *╭───⬡ SELECT MENU ⬡───*
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
 *├▢ 13. 🌀 Logo Menu*
 *├▢ 14. 🛠️ Tools Menu*
 *╰────────────────*
-* ©️ 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐓𝐊𝐓 𝐓𝐄𝐂𝐇*
+* *©️ 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐓𝐊𝐓 𝐓𝐄𝐂𝐇*
 
 > Reply with the number to select menu (1-14)`;
 
